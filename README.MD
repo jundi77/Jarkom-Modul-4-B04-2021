@@ -23,6 +23,7 @@ Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau seb
 # Jawaban
 
 `Note: VLSM=GNS3 CIDR=GNS3`
+`Note: DORIKI selalu di NID 10.9.254.0, FUKUROU selalu di NID 10.9.254.4`
 ![CPT Preview](https://user-images.githubusercontent.com/40772378/143675024-7f705bb3-722e-43ee-bd1b-9eb9ec7bdcd9.png)
 ![GNS3 Preview](https://user-images.githubusercontent.com/40772378/143675087-fd0b21a3-adb2-484b-bb65-c32da99704de.png)
  
