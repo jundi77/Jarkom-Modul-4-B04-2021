@@ -196,10 +196,18 @@ Kemudian hasil tersebut akan diterapkan pada node-node di CPT.
 
 ----
 ## Aset gambar untuk membantu lapres
+Berikut adalah FOOSHA CPT Interface
 ![Foosha CPT Interface](https://user-images.githubusercontent.com/40772378/143675154-37b202c8-f1b9-45c3-8a53-f14c9167f82d.png)
+Berikut adalah Router CPT Interface
 ![Router CPT Interface](https://user-images.githubusercontent.com/40772378/143675172-a4609a93-e0be-4c30-b1e2-f93e66becebc.png)
+Berikut adalah Interface Config FOOSHA dimana kita mengisikan '10.9.24.2' di IPV4 Adress , 
+'255.255.252.0' di Subnet Mask, '10.9.24.1' di Default Gateaway dan '0.0.0.0 di DNS Server
 ![Router Interface Config](https://user-images.githubusercontent.com/40772378/143675225-6fdd4f49-2adb-4198-93bb-bc1abcc891ba.png)
+
 ![Client Interface Config](https://user-images.githubusercontent.com/40772378/143675240-5062553e-3cdf-4c1a-adbc-c0e1c3415cd4.png)
+
 ![Router Routing Table](https://user-images.githubusercontent.com/40772378/143675268-37308b09-b751-423f-b1ce-ff84bd3842f4.png)
+
 ![Network config GNS3](https://user-images.githubusercontent.com/40772378/143675359-53467843-0261-4680-bd3c-e1be40545534.png)
+
 ![Contoh Syntax Routing Table di Foosha](https://user-images.githubusercontent.com/40772378/143675407-2f4bd58d-7edc-4e0b-b17a-ed2ab7f4eaa8.png)
