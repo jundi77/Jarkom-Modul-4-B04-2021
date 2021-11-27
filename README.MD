@@ -17,3 +17,21 @@
 ![Shift_CIDR_tree](https://user-images.githubusercontent.com/40772378/143675333-1e5bd747-6631-4622-aed4-08a15453119a.png)
 ![Network config GNS3](https://user-images.githubusercontent.com/40772378/143675359-53467843-0261-4680-bd3c-e1be40545534.png)
 ![Contoh Syntax Routing Table di Foosha](https://user-images.githubusercontent.com/40772378/143675407-2f4bd58d-7edc-4e0b-b17a-ed2ab7f4eaa8.png)
+
+VLSM Table
+| Subnet | Jumlah IP | Netmask | Subnet Mask     |
+| ------ | --------- | ------- | --------------- |
+| A1     | 101       | 25      | 255.255.255.128 |
+| A2     | 701       | 22      | 255.255.252.0   |
+| A3     | 2         | 30      | 255.255.255.252 |
+| A4     | 2021      | 21      | 255.255.248.0   |
+| A5     | 2         | 30      | 255.255.255.252 |
+| A6     | 521       | 22      | 255.255.252.0   |
+| A7     | 252       | 24      | 255.255.255.0   |
+| A8     | 1001      | 22      | 255.255.252.0   |
+| A9     | 2         | 30      | 255.255.255.252 |
+| A10    | 2         | 30      | 255.255.255.252 |
+| A11    | 721       | 22      | 255.255.252.0   |
+| A12    | 502       | 23      | 255.255.254.0   |
+| A13    | 13        | 28      | 255.255.252.240 |
+| Total  | 5841      | 19      | 255.255.224.0   |
