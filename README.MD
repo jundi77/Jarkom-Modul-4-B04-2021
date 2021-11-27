@@ -2,7 +2,7 @@
 
 ----
 
-`Note: VLSM=CPT CIDR=GNS3`
+`Note: VLSM=GNS3 CIDR=GNS3`
 ![CPT Preview](https://user-images.githubusercontent.com/40772378/143675024-7f705bb3-722e-43ee-bd1b-9eb9ec7bdcd9.png)
 ![GNS3 Preview](https://user-images.githubusercontent.com/40772378/143675087-fd0b21a3-adb2-484b-bb65-c32da99704de.png)
 ![Foosha CPT Interface](https://user-images.githubusercontent.com/40772378/143675154-37b202c8-f1b9-45c3-8a53-f14c9167f82d.png)
