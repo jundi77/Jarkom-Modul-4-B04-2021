@@ -116,6 +116,28 @@ Dari pohon pembagian IP tersebut, didapat NID (Network ID) untuk tiap-tiap subne
 |A12   |10.9.24.0     |
 |A13   |10.9.27.128   |
 
+### Implementasi di GNS3
+
+Dari pembagian IP, kemudian didapatkan data NID dan netmask seperti berikut untuk tiap-tiap subnet:
+
+|Subnet|NID           | Subnet Mask     | Netmask |
+|------|------------  | --------------- | ------- |
+|A1    |10.9.27.0     | 255.255.255.128 | 25      |
+|A2    |10.9.16.0     | 255.255.252.0   | 22      |
+|A3    |10.9.27.144   | 255.255.255.252 | 30      |
+|A4    |10.9.0.0      | 255.255.248.0   | 21      |
+|A5    |10.9.27.148   | 255.255.255.252 | 30      |
+|A6    |10.9.20.0     | 255.255.252.0   | 22      |
+|A7    |10.9.26.0     | 255.255.255.0   | 24      |
+|A8    |10.9.8.0      | 255.255.252.0   | 22      |
+|A9    |10.9.27.152   | 255.255.255.252 | 30      |
+|A10   |10.9.27.156   | 255.255.255.252 | 30      |
+|A11   |10.9.12.0     | 255.255.252.0   | 22      |
+|A12   |10.9.24.0     | 255.255.254.0   | 23      |
+|A13   |10.9.27.128   | 255.255.252.240 | 28      |
+
+Kemudian hasil tersebut akan diterapkan pada node-node di GNS3.
+
 ## CIDR
 
 Pada CIDR, diperlukan rancangan subnet-subnet yang nanti akan ditentukan IP-nya beserta netmask-nya. Kami menggunakan hasil dari pengelompokan VLSM, sehingga rancangan subnetnya menjadi seperti berikut:
@@ -147,6 +169,28 @@ Dari pohon pembagian IP tersebut, didapat NID untuk tiap-tiap subnet:
 |A11   |10.9.72.0   |
 |A12   |10.9.64.0   |
 |A13   |10.9.66.0   |
+
+### Implementasi di CPT
+
+Dari pembagian IP, kemudian didapatkan data NID dan netmask seperti berikut untuk tiap-tiap subnet:
+
+|Subnet|NID         | Subnet Mask     | Netmask |
+|------|------------| --------------- | ------- |
+|A1    |10.9.0.0    | 255.255.255.128 | 25      |
+|A2    |10.9.24.0   | 255.255.252.0   | 22      |
+|A3    |10.9.28.0   | 255.255.255.252 | 30      |
+|A4    |10.9.16.0   | 255.255.248.0   | 21      |
+|A5    |10.9.100.0  | 255.255.255.252 | 30      |
+|A6    |10.9.80.0   | 255.255.252.0   | 22      |
+|A7    |10.9.76.0   | 255.255.255.0   | 24      |
+|A8    |10.9.96.0   | 255.255.252.0   | 22      |
+|A9    |10.9.84.0   | 255.255.255.252 | 30      |
+|A10   |10.9.68.0   | 255.255.255.252 | 30      |
+|A11   |10.9.72.0   | 255.255.252.0   | 22      |
+|A12   |10.9.64.0   | 255.255.254.0   | 23      |
+|A13   |10.9.66.0   | 255.255.252.240 | 28      |
+
+Kemudian hasil tersebut akan diterapkan pada node-node di CPT.
 
 ----
 ## Aset gambar untuk membantu lapres
