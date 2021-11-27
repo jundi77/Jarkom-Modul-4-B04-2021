@@ -1,6 +1,20 @@
 # Jarkom-Modul-4-B04-2021
 
 ----
+1. Soal shift dikerjakan pada Cisco Packet Tracer dan GNS3 menggunakan metode perhitungan CLASSLESS yang berbeda.
+Keterangan: Bila di CPT menggunakan VLSM, maka di GNS3 menggunakan CIDR atau sebaliknya.
+
+2. Jika tidak ada pemberitahuan revisi soal dari asisten, berarti semua soal BERSIFAT BENAR dan DAPAT DIKERJAKAN.
+
+3. Untuk di GNS3, CLOUD merupakan NAT1 jadi jangan sampai salah agar bisa terkoneksi internet.
+
+4. Pembagian IP menggunakan prefix IP yang telah ditentukan pada modul pengenalan.
+
+5. Pembagian IP dan routing harus SEEFISIEN MUNGKIN.
+
+6. Pastikan semua node pada GNS3 dapat melakukan ping ke its.ac.id.
+
+# Jawaban
 
 `Note: VLSM=GNS3 CIDR=GNS3`
 ![CPT Preview](https://user-images.githubusercontent.com/40772378/143675024-7f705bb3-722e-43ee-bd1b-9eb9ec7bdcd9.png)
